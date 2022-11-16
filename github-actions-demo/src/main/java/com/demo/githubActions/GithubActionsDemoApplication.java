@@ -22,7 +22,7 @@ public class GithubActionsDemoApplication {
 
     @GetMapping
     ResponseEntity<String> greet(){
-        return ResponseEntity.ok("Hello there");
+        return ResponseEntity.ok("Hello World");
     }
 
 
